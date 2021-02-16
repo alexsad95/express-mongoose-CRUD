@@ -1,0 +1,26 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node app.js",
+    "start:dev": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
+    "uuidv4": "^6.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
